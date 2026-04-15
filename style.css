@@ -127,11 +127,6 @@ p + p {
   margin: 0 auto;
   padding: 0 var(--spacing-sm);
   min-height: 60vh;
-  transition: opacity 0.15s ease;
-}
-
-.page-content.fade-out {
-  opacity: 0;
 }
 
 /* ── Footer ───────────────────────────────────────── */

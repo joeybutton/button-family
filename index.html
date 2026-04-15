@@ -11,16 +11,33 @@
 </head>
 <body>
   <header class="site-header">
-    <a href="#/" class="site-title">Button</a>
+    <a href="./" class="site-title">Button</a>
     <nav id="site-nav"></nav>
   </header>
 
-  <main id="content" class="page-content"></main>
+  <main class="page-content">
+    <section class="hero">
+      <h1 class="hero-title">BUTTON</h1>
+      <hr class="hero-rule">
+      <p class="hero-tagline">A Family Legacy</p>
+      <div class="scroll-indicator" aria-hidden="true">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M7 10l5 5 5-5"/>
+        </svg>
+      </div>
+    </section>
+
+    <section class="members-section">
+      <h2 class="section-heading">Legacy</h2>
+      <div id="member-grid" class="member-grid"></div>
+    </section>
+  </main>
 
   <footer class="site-footer">
     <p>Button Family</p>
   </footer>
 
+  <script>window.SITE_ROOT = '.';</script>
   <script src="app.js"></script>
   <script data-goatcounter="https://button-family.goatcounter.com/count"
           async src="//gc.zgo.at/count.js"></script>
