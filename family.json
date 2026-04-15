@@ -1,0 +1,16 @@
+{
+  "familyName": "Button",
+  "members": [
+    {
+      "slug": "warren-button",
+      "name": "Warren A. Button",
+      "born": "1931",
+      "died": "2022",
+      "type": "memorial",
+      "shortLabel": "Warren",
+      "tagline": "Father, provider, craftsman",
+      "showInNav": true,
+      "navOrder": 1
+    }
+  ]
+}
