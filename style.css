@@ -199,6 +199,36 @@ p + p {
   padding: var(--spacing-lg) 0 var(--spacing-xl);
 }
 
+.section-link {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-text-light);
+  transition: color 0.2s;
+}
+
+.section-link:hover {
+  color: var(--color-bronze);
+}
+
+/* ── Legacy Page Header ───────────────────────────── */
+
+.legacy-header {
+  text-align: center;
+  padding: var(--spacing-xl) 0 0;
+}
+
+.legacy-title {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 6vw, 3.5rem);
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-text);
+}
+
 .section-heading {
   font-size: 1.1rem;
   font-weight: 600;
